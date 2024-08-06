@@ -1,0 +1,136 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.icons{
+    width: 720px;
+    cursor: pointer;
+}
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   color: #2f2f2f;
+   background-color: white;
+   overflow-y: scroll;
+   overflow-x: hidden;
+
+}
+.main-title{
+    margin-top: 15px;
+    margin-left:15px;
+    font-weight: bold;
+
+}
+h1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 11px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+.card{
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 2px darkcyan;
+    background-color: darkcyan;
+    width: auto;
+    padding: 5px;
+    width: 90px;
+    cursor: pointer;
+}
+#card{
+    height: 130px;
+}
+.card:hover{
+    scale: 1.05;
+    transition: all;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+    margin: auto;
+}
+.blur{
+    flex: 1;
+}
+button{
+    margin: auto;
+    display: block;
+    color: darkcyan;
+    font-size: 11px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: -8px;
+    border: none;
+    padding:3px;
+    width: 55px;
+    text-align: center;
+}
+.btnLer{
+    margin-top: 1px;
+}
+.calendar{
+    display: block;
+    width: 10px;
+}
+.card-calendar{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 1px darkcyan;
+    width: 250px;
+    border-radius: 10px;
+    gap:5px;
+    margin: auto;
+    padding: 5px;
+    margin-top:5px;
+    cursor: pointer;
+}
+.card-lista{
+    display: flex;
+    justify-content: space-around;
+    margin:5px auto;
+    box-shadow: 0px 0px 1px darkcyan;
+    width: 220px;
+    padding: 5px;
+    border-radius: 10px;
+    align-items: center;
+}
+.btn{
+    margin: auto;
+    padding: 5px;
+    background-color: darkcyan;
+    color: white;
+    width: 70px;
+    cursor: pointer;
+    font-size: 12px;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+a.active{
+     color: darkcyan;
+     text-decoration: underline;
+}
+.lista{
+    display: block;
+
+}
+#container{
+    flex: 1;
+    justify-content: end;
+    background-color: #00000099;
+}
+#container-1{
+   background-color: #18181b;
+   border-color: #3f3f46; 
+   padding-left:1.5rem;
+   padding-right: 1.5rem;
+   padding-top: 20px;
+   padding-bottom: 40px;
+}
